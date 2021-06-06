@@ -52,7 +52,7 @@ class App extends React.Component {
 					<Route 
 						exact 
 						path="/profile" 
-						component={()=><Profile userName={this.props.userName} email={this.props.email} />} />
+						component={()=><Profile userName={this.props.userName} email={this.props.email}/> } />
 					<Redirect to="/" />
 				</Switch>
 			</>
