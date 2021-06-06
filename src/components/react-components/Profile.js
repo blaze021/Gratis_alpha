@@ -1,4 +1,5 @@
 import React from 'react';
+import { $CombinedState } from 'redux';
 import './Profilestyle.css'
 
 document.body.style.backgroundColor = '#e9e9e9' ;
@@ -94,5 +95,6 @@ class Profile extends React.Component{
 }
 
 
-
 export default Profile;
+
+
