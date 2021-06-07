@@ -3,7 +3,23 @@
 	letter-spacing: 18px;
 	font-size: 29px;
 	color: blueviolet;
-	font-weight:bold;
+	font-weight: bold;
+}
+.logo-name-login {
+	font-family: 'Gracha', cursive;
+	letter-spacing: 28px;
+	font-size: 29px;
+	color: beige;
+	font-weight: bold;
+	text-align: center;
+}
+
+.navbar_logo_home {
+	font-family: 'Gracha', cursive;
+	letter-spacing: 18px;
+	font-size: 20px;
+	color: blueviolet;
+	font-weight: bold;
 }
 /*CodyStar*/
 .slogan-1 {
@@ -22,7 +38,7 @@
 }
 
 .gra-chan_login {
-	background-image: url(../src/assets/img/gra_chan.png);
+	background-image: url(../src/assets/img/DP.jpg);
 	height: 490px;
 	width: 450px;
 	border: none;
@@ -33,10 +49,20 @@
 	height: 105vh;
 }
 
-@media(max-width: 768px){
+.navbar_bg {
+	background-image: linear-gradient(to left, #2d2d38, #2d1e38);
+}
+
+@media (max-width: 768px) {
 	.login_bg {
 		background-image: linear-gradient(to left, #2d2d38, #2d1e38);
 		height: 105vh;
+	}
+}
+
+@media(min-width: 577px){
+	.hidden-large-screen{
+		display: none;
 	}
 }
 
@@ -46,6 +72,27 @@
 	transition: 0.3s;
 	border-radius: 5px;
 	padding: 2px 16px; /* 5px rounded corners */
+}
+
+.card-navbar {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	border-bottom-right-radius: 50px;
+	border-bottom-left-radius: 50px;
+	padding: 2px 16px; /* 5px rounded corners */
+}
+
+.card-navbar-home {
+	/* Add shadows to create the "card" effect */
+	box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2);
+	transition: 0.3s;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 30px;
+	border-bottom-left-radius: 30px;
+	padding: 2px 16px; /* 5px rounded corners */
+	height: 75px;
 }
 
 .navbar-border {
@@ -62,50 +109,50 @@
 	color: black;
 }
 
-@media (min-width: 950px){
-	.card1{
+@media (min-width: 950px) {
+	.card1 {
 		margin: auto;
 		width: 60%;
 		margin-bottom: 15px;
 	}
 }
 
-@media(max-width: 949px){
-	.card1{
+@media (max-width: 949px) {
+	.card1 {
 		margin: 15px 15px;
 	}
 }
 
-@-webkit-keyframes fadeIn{
-	from{
+@-webkit-keyframes fadeIn {
+	from {
 		opacity: 0;
 	}
-	to{
+	to {
 		opacity: 1;
 	}
 }
-@keyframes fadeIn{
-	from{
+@keyframes fadeIn {
+	from {
 		opacity: 0;
 	}
-	to{
+	to {
 		opacity: 1;
 	}
 }
 
-@-webkit-keyframes fadeOut{
-	from{
+@-webkit-keyframes fadeOut {
+	from {
 		opacity: 0;
 	}
-	to{
+	to {
 		opacity: 1;
 	}
 }
-@keyframes fadeOut{
-	from{
+@keyframes fadeOut {
+	from {
 		opacity: 0;
 	}
-	to{
+	to {
 		opacity: 1;
 	}
 }

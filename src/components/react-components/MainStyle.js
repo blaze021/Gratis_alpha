@@ -131,7 +131,6 @@ style.Description=styled.div`
 
 style.SharedImage=styled.div`
     margin-top: 8px;
-    background-color: #f9fafb;
     img{
         width: 100%;
         height: 100%;
